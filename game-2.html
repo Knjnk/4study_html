@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+	<title>Knjnk - Game Records</title>
+	<style type="text/css">
+		body {
+			background-color: #000;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		.header {
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		.title {
+			font-size: 64px;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+			text-shadow: 2px 2px #FF007F, -2px -2px #00FFFF;
+		}
+		.subtitle {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+			text-align: center;
+			text-shadow: 1px 1px #00FF00, -1px -1px #FF00FF;
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+		.records {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -10px;
+		}
+		.record {
+			background-color: #333;
+			border-radius: 10px;
+			padding: 20px;
+			box-shadow: 2px 2px 5px #000;
+			margin: 20px 10px;
+			width: calc(33.33% - 20px);
+			min-width: 300px;
+		}
+		.record-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		.record-title {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+		}
+		.record-date {
+			font-size: 14px;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+		}
+		.stat {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			margin: 20px 0;
+			color: #fff;
+			text-shadow: 1px 1px #FF007F, -1px -1px #00FFFF;
+		}
+		.stat-label {
+			font-size: 18px;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+		}
+		.stat-value {
+			font-size: 36px;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			color: #fff;
+		}
+		.stat-value span {
+			font-size: 18px;
+			font-weight: normal;
+			margin-left: 5px;
+		}
+	</style>
+</head>
+<!-- 스타일 출처 : 깃허브 css 오픈소스 -->
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="title">ak031</h1>
+			<p class="subtitle">NSeR</p>
+		</div>
+		<div class="records">
+			<div class="record">
+				<div class="record-header">
+					<h2 class
+                    <!-- 랭킹 정보 -->
+                    <div class="rankings-container">
+                      <h2>랭킹 정보</h2>
+                      <br><hr><hr><br>
+                      <div class="ranking-card">
+                        <div class="ranking-card-header">
+                          <div class="ranking-card-header-left">
+                            <img src="https://ac-p1.namu.la/20211222s1/62fb6b59f48799bee81dad0904f1e82acd31262ca02fc0ae2830eefb79164614.png?type=jpg" alt="Valorant">
+                            <div>
+                              <h3>{ 게임 정보 1 }</h3>
+                              <p>{플랫폼}</p>
+                            </div>
+                          </div>
+                          <div class="ranking-card-header-right">
+                            <h4>{랭킹}</h4>
+                            <div class="ranking-bar">
+                              <div class="ranking-bar-fill" style="width: 50%;"></div>
+                            </div>
+                            <h5>{mmr}</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <br><hr><br>
+                      <div class="ranking-card">
+                        <div class="ranking-card-header">
+                          <div class="ranking-card-header-left">
+                            <img src="https://ac-p1.namu.la/20211222s1/62fb6b59f48799bee81dad0904f1e82acd31262ca02fc0ae2830eefb79164614.png?type=jpg" alt=R6S">
+                            <div>
+                              <h3>{ 게임 정보 2 }</h3>
+                              <p>{ 플랫폼 }</p>
+                            </div>
+                          </div>
+                          <div class="ranking-card-header-right">
+                            <h4>{ 랭킹 }</h4>
+                            <div class="ranking-bar">
+                              <div class="ranking-bar-fill" style="width: 60%;"></div>
+                            </div>
+                            <h5>{ mmr }</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <br><hr><br>
+                      <div class="ranking-card">
+                        <div class="ranking-card-header">
+                          <div class="ranking-card-header-left">
+                            <img src="https://ac-p1.namu.la/20211222s1/62fb6b59f48799bee81dad0904f1e82acd31262ca02fc0ae2830eefb79164614.png?type=jpg" alt="csgo">
+                            <div>
+                              <h3>{ 게임 정보 3 }</h3>
+                              <p>{ 플랫폼 }</p>
+                            </div>
+                          </div>
+                          <div class="ranking-card-header-right">
+                            <h4>{랭킹}</h4>
+                            <div class="ranking-bar">
+                              <div class="ranking-bar-fill" style="width: 80%;"></div>
+                            </div>
+                            <h5>{mmr}</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                <br>
+                <hr>
+                <br>
+                    <!-- 전적 정보 -->
+                    <div class="record-container">
+                      <h2>전적 정보</h2>
+                      <br>
+                      <div class="record-card">
+                        <h3>게임 이름</h3>
+                        <input type="text" placeholder="{게임 이름 입력}">
+                        <h3>전적 사이트</h3>
+                        <input type="text" placeholder="{전적 사이트 입력}">
+                        <button class="search-button">검색</button>
+                        <div class="recent-records">
+                            <br>
+                          <h4>최근 전적</h4>
+                          <hr>
+                          <table>
+                            <tr>
+                              <th>게임</th>
+                              <th>전적</th>
+                              <th>승률</th>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
+                                        
+<!-- 차후에 게이밍 기어 관련 정보를 오른쪽에 기재하도록 할 예정 
+ 최종 작성일 2023.04.05 WED -->
